@@ -524,6 +524,7 @@
               <form
                 class="questions__form"
                 autocomplete="off"
+                onsubmit="this.reset(); window.scrollTo({top: 0}); return false;"
               >
                 <input
                   type="email"
